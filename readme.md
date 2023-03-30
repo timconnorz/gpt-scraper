@@ -36,7 +36,7 @@ GET: "<host>/scrape" with a 'url' form parameter
 ### The Prompt
 
 Here's what I used as the chat prompt to GPT-4
-
+```python
 {
     "role": "system",
     "content": """
@@ -62,3 +62,4 @@ Here's what I used as the chat prompt to GPT-4
         {scraped_data}
     """
 }
+```
